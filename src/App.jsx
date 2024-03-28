@@ -22,36 +22,36 @@ function App() {
         <div className="absolute top-0 left-[35rem] bg-[#e3f2f1] border-none w-[50rem] h-[18rem] rounded-br-full shadow"></div>
         <div className="bg-[#cadfde] w-[50rem] h-[19rem] translate-y-[2.2rem] rounded-tl-full  clip-left"></div>
 
-        <section className="bg-[#e3f2f1] p-5 z-20 rounded-lg shadow-lg absolute top-0 left-[3rem] grid grid-cols-2">
-          <div className="bg-[#3d5654] p-4 rounded-lg w-fit">
-            <div className="text-white flex flex-col items-center text-center">
+        <section className="bg-[#e3f2f1] p-5 z-20 rounded-lg shadow-lg absolute top-0 left-[3rem] ">
+          <div className="bg-[#3d5654] rounded-lg w-fit">
+            <div className="text-white flex flex-col items-center text-center py-8 px-4">
               <div className="bg-red-500 w-[30px] h-[30px] rounded-full"></div>
               <h3>ALEX JOHNSON</h3>
               <p>alex.johnson@gmail.com</p>
             </div>
-            <div className="">
-              <ul className="text-white">
-                <li className="flex items-center">
+            <div className="flex items-center justify-center bg-[#425c5a] z-10 w-full">
+              <ul className="text-white cursor-pointer mt-4">
+                <li className="flex items-center space-x-4 text-xl mb-7 expand">
                   <BiHome className="text-[#c99c33]" />
                   <p>DASHBOARD</p>
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center space-x-4 text-xl mb-7 expand">
                   <PiAirplaneTiltThin className="text-[#c99c33]" />
                   <p>FLIGHTS</p>
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center space-x-4 text-xl mb-7 expand">
                   <TbWallet className="text-[#c99c33]" />
                   <p>WALLET</p>
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center space-x-4 text-xl mb-7 expand">
                   <IoNewspaperOutline className="text-[#c99c33]" />
                   <p>REPORTS</p>
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center space-x-4 text-xl mb-7 expand">
                   <AiOutlinePieChart className="text-[#c99c33]" />
                   <p>STATISTICS</p>
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center space-x-4 text-xl mb-7 expand">
                   <SlSettings className="text-[#c99c33]" />
                   <p>SETTINGS</p>
                 </li>
@@ -64,7 +64,7 @@ function App() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 w-max h-fit -translate-x-[20rem] bg-white rounded-lg p-4">
+          {/* <div className="grid grid-cols-2 gap-4 w-max h-fit  bg-white rounded-lg p-4">
             <div className="flex items-center px-4 space-x-5 bg-[#e1eceb] rounded-[2rem]">
               <h3 className="flex items-center">
                 <ImLocation /> NEW YORK (JFK)
@@ -83,7 +83,7 @@ function App() {
               </div>
               <div className="flex items-center space-x-4 py-4 px-7 w-fit bg-[#e1eceb] rounded-[2rem]">
                 <FaUser />
-                <h3>2 TRAVELLER</h3>
+                <h3>2 TRAVELLERS</h3>
               </div>
             </div>
 
@@ -100,7 +100,7 @@ function App() {
               </div>
               <button className="py-4 px-7 w-fit bg-[#c99c33] rounded-[2rem] text-white">SEARCH</button>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
       {/* <div className="-translate-x-[3rem] -translate-y-[5rem] bg-[#d6a217] w-[250px] h-[250px] rounded-full"></div>

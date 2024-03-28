@@ -1,6 +1,40 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: linear-gradient(to bottom right, #e3f2f1 50%, #cadfde 50%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #e3f2f1 50%, #cadfde 50%);
+}
+
+.expand:hover {
+  padding-left: 5px;
+  color: #3d5654;
+  background-color: #e3f2f1;
+  border-radius: 20px 0 0 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.expand:hover::before {
+  content: "";
+  position: absolute;
+  transform: translateY(-20px);
+  width: 27px;
+  height: 20px;
+  background-color: white;
+  right: 21px;
+  z-index: -1;
+  border-bottom-right-radius: 20px;
+  box-shadow: 2px 2px 0 2px;
+}
+
+.expand:hover::after {
+  content: "";
+  position: absolute;
+  transform: translateY(20px);
+  width: 27px;
+  height: 20px;
+  background-color: white;
+  right: 21px;
+  z-index: -1;
+  border-top-right-radius: 20px;
+  box-shadow: 2px 2px 0 2px;
 }
