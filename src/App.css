@@ -3,6 +3,7 @@ body {
   padding: 0;
   height: 100vh;
   background: linear-gradient(to bottom right, #e3f2f1 50%, #cadfde 50%);
+  z-index: -1;
 }
 
 .expand:hover {
