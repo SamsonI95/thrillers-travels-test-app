@@ -1,9 +1,9 @@
 import React from 'react'
 
-const reports = () => {
+const Reports = () => {
   return (
-    <div>reports</div>
+    <div className="flex items-center justify-center relative top-[50%]">reports</div>
   )
 }
 
-export default reports
+export default Reports;

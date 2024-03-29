@@ -6,7 +6,7 @@ body {
   z-index: -1;
 }
 
-.expand:hover {
+/* .expand:hover {
   padding-left: 5px;
   color: #3d5654;
   background-color: #e3f2f1;
@@ -38,4 +38,4 @@ body {
   z-index: -1;
   border-top-right-radius: 20px;
   box-shadow: 2px 2px 0 2px;
-}
+} */

@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "/emirates.png",
+        "company": "EMIRATES",
+        "price": "$1,572"
+    },
+    {
+        "icon": "/qatar.png",
+        "company": "QATAR AIRWAYS",
+        "price": "$2,072"
+    },
+    {
+        "icon": "/lufthansa.png",
+        "company": "LUFTHANSA",
+        "price": "$1,872"
+    },
+    {
+        "icon": "/emirates.png",
+        "company": "EMIRATES",
+        "price": "$1,872"
+    }
+]

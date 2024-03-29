@@ -1,0 +1,65 @@
+.tag > h3:hover {
+  border: transparent;
+  background-color: #d6a217;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 3px 5px;
+  transition: all 0.3s;
+}
+
+.tag > h3.active {
+  border: transparent;
+  background-color: #d6a217;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 3px 5px;
+  transition: all 0.3s;
+}
+
+/* .tag1 > h3:hover {
+  color: white;
+  border: transparent;
+  background-color: #425c5a;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.tag1 > h3 {
+  padding: 0 4px;
+}
+
+.tag1 > h3.active {
+  color: white;
+  border: transparent;
+  background-color: #425c5a;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card1 {
+  border-radius: 20px 20px 0 0;
+  border-bottom: 2px dashed #e3f2f1;
+}
+
+.card2 {
+  border-bottom: 2px dashed #e3f2f1;
+}
+
+.card3 {
+  border-bottom: 2px dashed #e3f2f1;
+}
+
+.card4 {
+  border-radius: 0 0 20px 20px;
+}

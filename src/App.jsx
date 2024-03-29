@@ -11,14 +11,15 @@ import {
 //Style
 import "./App.css";
 
+
 //Page(s)
 import Landing from "./Landing";
-import dashboard from "./Pages/dashboard";
-import flights from "./Pages/flights";
-import reports from "./Pages/reports";
-import settings from "./Pages/settings";
-import statistics from "./Pages/statistics";
-import wallet from "./Pages/wallet";
+import Dashboard from "./Pages/Dashboard";
+import Flights from "./Pages/Flights";
+import Reports from "./Pages/Reports"
+import Wallet from "./Pages/Wallet";
+import Statistics from "./Pages/Statistics";
+import Settings from "./Pages/Settings";
 
 function App() {
   const router = createBrowserRouter(
@@ -26,12 +27,12 @@ function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<Landing />} />
         <Route path="/landing" element={<Landing />}>
-          <Route path="/landing/dashboard" element={dashboard} />
-          <Route path="/landing/flights" element={flights} />
-          <Route path="/landing/reports" element={reports} />
-          <Route path="/landing/settings" element={settings} />
-          <Route path="/landing/statistics" element={statistics} />
-          <Route path="/landing/wallet" element={wallet} />
+          <Route path="/landing/dashboard" element={<Dashboard />} />
+          <Route path="/landing/flights" element={<Flights />} />
+          <Route path="/landing/reports" element={<Reports />} />
+          <Route path="/landing/settings" element={<Settings />} />
+          <Route path="/landing/statistics" element={<Statistics />} />
+          <Route path="/landing/wallet" element={<Wallet />} />
         </Route>
       </Route>
     )

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const settings = () => {
+const Settings = () => {
   return (
-    <div>settings</div>
+    <div className="flex items-center justify-center relative top-[50%]">settings</div>
   )
 }
 
-export default settings
+export default Settings

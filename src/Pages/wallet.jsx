@@ -1,9 +1,9 @@
 import React from 'react'
 
-const wallet = () => {
+const Wallet = () => {
   return (
-    <div>wallet</div>
+    <div className="flex items-center justify-center relative top-[50%]">wallet</div>
   )
 }
 
-export default wallet
+export default Wallet

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const dashboard = () => {
-  return (
-    <div>dashboard</div>
-  )
-}
+const Dashboard = () => {
+  return <div className="flex items-center justify-center relative top-[50%]">dashboard</div>;
+};
 
-export default dashboard
+export default Dashboard;
